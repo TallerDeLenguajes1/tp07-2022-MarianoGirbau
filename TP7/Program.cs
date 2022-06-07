@@ -19,7 +19,7 @@ for (int i = 0; i < CantidadDeTareas; i++)
     tareasPendientes.Add(tar);
 }
 
-Console.WriteLine("--TAREAS PENDIENTES--");
+Console.WriteLine("=======TAREAS PENDIENTES=======");
 foreach (tarea tar in tareasPendientes)
 {
     tar.mostrarTareas();
